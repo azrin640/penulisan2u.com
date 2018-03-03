@@ -1,1 +1,29 @@
+.hero{
+  background-image: url("/images/photos/hero_1900.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
 
+  &__overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+  }
+  &__body{
+    text-align: center;
+    top: 50%;
+  }
+  &__h1{
+    font-size: 3em;
+    @media screen and (min-width: 500px){
+      font-size: 5em;
+    }
+  }
+  &__h3{
+    font-size: 1.5em;
+  }
+  &__button{
+    margin-top:20px;
+  }
+}

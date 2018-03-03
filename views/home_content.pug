@@ -1,0 +1,25 @@
+extends home
+
+block content 
+  .inner
+    div(class="columns")
+      div(class="column is-two-thirds")       
+        nav(class="breadcrumb" aria-label="breadcrumbs")
+          ul
+            li 
+              a(href="/") 
+                i(class="fas fa-home")
+                span &nbsp;Home
+        div(class="columns")
+          div(class="column is-one-third")
+            div(class="card bookcard")
+              div(class="card-image bookcard__imageBox")
+                figure(class="image bookcard__image")
+                  img(src="/images/photos/cover.jpg")              
+              div(class="card-header bookcard__header")
+                figure(class="image is-48x48 is-left")
+                  img(src="images/icons/doughnut.png")
+                p Lorem ipsum dolor
+              div(class="card-content bookcard__content")
+                p In scelerisque orci et orci facilisis, pulvinar sodales nisi pellentesque. Curabitur tincidunt pretium ultrices. Sed eu gravida risus. Phasellus imperdiet at dui id accumsan. Nam risus elit, molestie ac ultrices ut, luctus sit amet ante. Etiam magna urna, imperdiet sed justo sed, dictum sagittis elit. Nam eros velit, iaculis ut orci in, auctor vulputate dui. Aenean fermentum ullamcorper est, non molestie nisl faucibus blandit. Morbi tempor lacus ut ipsum tempor bibendum.
+      div(class="column is-one-thirds")

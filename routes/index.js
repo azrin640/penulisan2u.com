@@ -6,7 +6,7 @@ const { catchErrors } = require('../handlers/errorHandlers');
 
 // Base Pages
 router.get('/', (req, res) => {
-  res.render('index', {title: 'Index'});
+  res.render('home_content', {title: 'Selamat Datang'});
 });
 
 router.get('/contact', (req, res) => {

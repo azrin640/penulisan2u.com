@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "penulisan2u",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -71,5 +71,13 @@
   "description": "Just you wait folks!",
   "main": "app.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azrin640/nodejs_boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azrin640/nodejs_boilerplate/issues"
+  },
+  "homepage": "https://github.com/azrin640/nodejs_boilerplate#readme"
 }
